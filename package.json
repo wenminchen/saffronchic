@@ -1,0 +1,26 @@
+{
+  "name": "saffronchic",
+  "version": "0.0.1",
+  "description": "SaffronChic is a child theme for Storefront (the official WooCommerce theme).",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenminchen/saffronchic.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "gray",
+    "white",
+    "responsive-layout",
+    "left-sidebar"
+  ],
+  "author": "Wenmin Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenminchen/saffronchic/issues"
+  },
+  "homepage": "https://github.com/wenminchen/saffronchic#readme"
+}

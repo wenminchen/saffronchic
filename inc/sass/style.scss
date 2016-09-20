@@ -1,0 +1,65 @@
+/*
+Theme Name: SaffronChic
+Theme URI: https://github.com/wenminchen/saffronchic.git
+Author: Wenmin Chen
+Author URI: http://www.wenminchen.com
+Description: SaffronChic is a child theme for Storefront (the official WooCommerce theme) created by [Wenmin Chen](http://www.wenminchen.com). It features a clean, modern, artistic design, perfect for stores selling unique, artistic goods. As a Storefront child theme, SaffronChic too has full WooCommerce integration. It is built to be part of a personal portfolio and it's not intented to be released for public use.
+Template: storefront
+Version: 0.0.1
+License: GNU General Public License v3.0 /
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: e-commerce, gray, white, responsive-layout, left-sidebar
+
+This child theme, like WordPress, is licensed under the GPL.
+
+Credits:
+1. The storefront theme (https://woocommerce.com/storefront/)
+
+2. Font Awesome
+
+ * https://fortawesome.github.io/Font-Awesome/
+
+3. Google Fonts (https://www.google.com/fonts)
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. BASE
+	# Mixins
+	# Variables
+	# Global
+2. COMPONENTS
+	# Accessibility
+	# Typography
+
+3. LAYOUTS
+	# Header
+	# Main
+	# Sidebar
+	# Featured
+	# Footer
+--------------------------------------------------------------*/
+
+/* 1. BASE - Base styles, variables, mixins, etc */
+@import 'base/_mixins.scss';
+@import 'base/_variables.scss';
+@import 'base/_global.scss';
+
+/* 2. COMPONENTS - Individual site components */
+@import 'components/_accessibility.scss';
+@import 'components/_typography.scss';
+//@import 'components/_images.scss';
+//@import 'components/_nav.scss';
+//@import 'components/_buttons.scss';
+//@import 'components/_carousel.scss';
+//@import 'components/_forms.scss';
+//@import 'components/_accordian.scss';
+//@import 'components/_posts.scss';
+
+/* 3. LAYOUTS - Page layout styles */
+@import 'layouts/_header.scss';
+@import 'layouts/_main.scss';
+@import 'layouts/_sidebar.scss';
+@import 'layouts/_featured.scss';
+@import 'layouts/_footer.scss';
